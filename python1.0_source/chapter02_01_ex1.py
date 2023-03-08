@@ -39,6 +39,9 @@ print(ex2)
 ex3 = f'n = {n}, s = {text}, sum={x + y}'
 print(ex3)
 
+ex3_1 = f'n={n}, s={text}, sum={x+y}'
+print(ex3_1)
+
 print()
 print()
 
@@ -73,6 +76,7 @@ print(f"t :{t:10}")
 print(f"t center: {t:^10}")
 print(f"t left: {t:<10}")
 print(f"t right: {t:>10}")
+
 
 print()
 print()
