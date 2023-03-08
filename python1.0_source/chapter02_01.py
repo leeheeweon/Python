@@ -45,9 +45,9 @@ print('Learn Python', file=sys.stdout)
 print()
 
 # format 사용(d, s, f)
-print('%s %s' % ('one', 'two'))
-print('{} {}'.format('one', 'two'))
-print('{1} {0}'.format('one', 'two'))
+print('%s %s' % ('lee','hee'))
+print('{} {}'.format('lee','hee'))
+print('{1} {2} {0}'.format('one', 'two' , 'ten'))
 
 # %s
 print('%10s' % ('nice',))
