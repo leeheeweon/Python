@@ -59,6 +59,7 @@ print(m)
 print(type(m))
 
 
+
 # id(identity)확인 : 객체의 고유값 확인
 m = 800
 n  = 655
