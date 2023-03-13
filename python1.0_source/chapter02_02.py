@@ -13,9 +13,9 @@ print(type(n))
 x = y = z = 700
 
 # 출력
-print(x, y ,z)
+print(x, y, z)
 
-#선언
+# 선언
 var = 75
 
 # 출력
@@ -28,7 +28,6 @@ var = "Change Value"
 # 출력
 print(var)
 print(type(var))
-
 
 # Object References
 # 변수 값 할당 상태
@@ -58,22 +57,21 @@ m = 400
 print(m)
 print(type(m))
 
-
-
 # id(identity)확인 : 객체의 고유값 확인
 m = 800
-n  = 655
+n = 655
 
 print(id(m))
 print(id(n))
-
+print(id(m) == id(n))
 
 m = 800
-n  = 800
+n = 800
 
 # 같은 오브젝트 참조
 print(id(m))
 print(id(n))
+print(id(m) == id(n))
 
 # 다양한 변수 선언
 # Camel Case :  numberOfCollegeGraduates
