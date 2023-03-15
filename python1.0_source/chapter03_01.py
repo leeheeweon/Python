@@ -14,29 +14,29 @@ dict : 사전
 '''
 
 # 데이터 타입(변수가 예약어 이므로, 17라인 ~ 40라인 삭제 후 진행)
-# str1 = "Python"
-# bool = True
-# str2 = "Anaconda"
-# float = 10.0
-# int = 7
-# list = [str1, str2]
-# dict = {
-#     "name": "Machine Learning",
-#     "version": 2.0
-# }
-# tuple = 3, 5, 7
-# set = {7, 8, 9}
+str1 = "Python"
+bool = True
+str2 = "Anaconda"
+float = 10.0
+int = 7
+list = [str1, str2]
+dict = {
+    "name": "Machine Learning",
+    "version": 2.0
+}
+tuple = 3, 5, 7
+set = {7, 8, 9}
 
 # # 데이터 타입 출력
-# print(type(str1))
-# print(type(bool))
-# print(type(str2))
-# print(type(bool))
-# print(type(float))
-# print(type(int))
-# print(type(dict))
-# print(type(tuple))
-# print(type(set))
+print(type(str1))
+print(type(bool))
+print(type(str2))
+print(type(bool))
+print(type(float))
+print(type(int))
+print(type(dict))
+print(type(tuple))
+print(type(set))
 
 # 숫자형 연산자
 """
@@ -137,16 +137,16 @@ d = 12.7
 print(type(a), type(b), type(c), type(d))
 
 # 형 변환 
-print(float(b))  # 정수 -> 실수
-print(int(c))  # 실수 -> 정수
-print(int(d))  # 실수 -> 정수
-print(int(True))  # Bool -> 정수
-print(float(True))  # Bool -> 정수
-print(int(False))  # Bool -> 정수
-print(float(False))  # Bool -> 정수
-print(complex(3))  # 정수 -> 복소수
-print(complex('3'))  # 문자 -> 복소수
-print(complex(False))  # Bool -> 복소수
+# print(float(b))  # 정수 -> 실수
+# print(int(c))  # 실수 -> 정수
+# print(int(d))  # 실수 -> 정수
+# print(int(True))  # Bool -> 정수
+# print(float(True))  # Bool -> 정수
+# print(int(False))  # Bool -> 정수
+# print(float(False))  # Bool -> 정수
+# print(complex(3))  # 정수 -> 복소수
+# print(complex('3'))  # 문자 -> 복소수
+# print(complex(False))  # Bool -> 복소수
 
 # 수치 연산 함수
 print(abs(-7))
