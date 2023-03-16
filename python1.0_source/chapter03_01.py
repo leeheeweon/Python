@@ -17,8 +17,8 @@ dict : 사전
 str1 = "Python"
 bool = True
 str2 = "Anaconda"
-float = 10.0
-int = 7
+float_v = 10.0
+int_v = 7
 list = [str1, str2]
 dict = {
     "name": "Machine Learning",
@@ -137,16 +137,16 @@ d = 12.7
 print(type(a), type(b), type(c), type(d))
 
 # 형 변환 
-# print(float(b))  # 정수 -> 실수
-# print(int(c))  # 실수 -> 정수
-# print(int(d))  # 실수 -> 정수
-# print(int(True))  # Bool -> 정수
-# print(float(True))  # Bool -> 정수
-# print(int(False))  # Bool -> 정수
-# print(float(False))  # Bool -> 정수
-# print(complex(3))  # 정수 -> 복소수
-# print(complex('3'))  # 문자 -> 복소수
-# print(complex(False))  # Bool -> 복소수
+print(float(b))  # 정수 -> 실수
+print(int(c))  # 실수 -> 정수
+print(int(d))  # 실수 -> 정수
+print(int(True))  # Bool -> 정수
+print(float(True))  # Bool -> 정수
+print(int(False))  # Bool -> 정수
+print(float(False))  # Bool -> 정수
+print(complex(3))  # 정수 -> 복소수
+print(complex('3'))  # 문자 -> 복소수
+print(complex(False))  # Bool -> 복소수
 
 # 수치 연산 함수
 print(abs(-7))
