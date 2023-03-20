@@ -9,16 +9,10 @@ str3 = """How are you?"""
 str4 = '''Thank you!'''
 
 # 문자열 출력
-print(type(str1))
-print(type(str2))
-print(type(str3))
-print(type(str4))
+print(type(str1),type(str2),type(str3),type(str4))
 
 # 문자열 길이
-print(len(str1))
-print(len(str2))
-print(len(str3))
-print(len(str4))
+print(len(str1),len(str2),len(str3),len(str4))
 
 # 빈 문자열
 str_t1 = ''
