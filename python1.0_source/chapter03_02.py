@@ -104,8 +104,9 @@ print("endswith?: ", str_o2.endswith("s"))
 print("join str: ", str_o1.join(["I'm ", "!"]))
 print("replace1: ", str_o1.replace('thon', ' Good'))
 print("replace2: ", str_o3.replace("are", "was"))
-print("split: ", str_o4.split(' '))  # Type 확인
+print("split: ", str_o4.split(' '))  # Type 확인 특정단어를 분리할때 사용
 print("sorted: ", sorted(str_o1))  # reverse=True
+print("sorted: ", sorted(str_o1,reverse=True))  # reverse=True
 print("reversed1: ", reversed(str_o2)) #list 형 변환
 print("reversed2: ", list(reversed(str_o2)))
 
