@@ -121,6 +121,8 @@ for i in im_str:
 
 # 슬라이싱
 str_sl = 'Nice Python'
+print(str_sl)
+print(len(str_sl))
 
 # 슬라이싱 연습
 print(str_sl[0:3])
