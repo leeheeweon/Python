@@ -60,7 +60,6 @@ raw_s2 = r"\\x\y\z\q"
 print(raw_s1)
 print(raw_s2)
 
-
 multi_str1 = \
     """
     문자열
