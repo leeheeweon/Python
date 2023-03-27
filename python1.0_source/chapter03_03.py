@@ -59,7 +59,7 @@ print('c - ', c)
 a = [5, 2, 3, 1, 4]
 
 print('a - ', a)
-a.append(6)
+a.append(10)
 print('a - ', a)
 a.sort()
 print('a - ', a)
