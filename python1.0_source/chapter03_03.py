@@ -69,12 +69,12 @@ print('a - ', a.index(5))
 a.insert(2, 7)
 print('a - ', a)
 a.reverse()
-a.remove(1)
+a.remove(1) #값을 넣으면 해당 값을 제거
 print('a - ', a)
-print('a - ', a.pop())
+print('a - ', a.pop()) #리스트의 마지막 값 출력, 리스트에는 마지막 값이 제거된 상태
 print('a - ', a.pop())
 print('a - ', a)
-print('a - ', a.count(4))
+print('a - ', a.count(4)) #값의 갯수 출력
 ex = [8, 9]
 a.extend(ex)
 print('a - ', a)
