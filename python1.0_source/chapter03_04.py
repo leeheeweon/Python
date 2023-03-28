@@ -56,6 +56,7 @@ print(t[-1])
 (x1, x2, x3, x4) = t
 
 # 출력확인
+print(type(x1),type(x2),type(x3),type(x4))
 print(x1)
 print(x2)
 print(x3)
