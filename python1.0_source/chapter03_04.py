@@ -44,7 +44,6 @@ print('a - ', a.index(5))
 print('a - ', a.count(4))
 
 # 팩킹 & 언팩킹(Packing, and Unpacking)
-
 # 팩킹
 t = ('foo', 'bar', 'baz', 'qux')
 
