@@ -36,6 +36,7 @@ print('c - ', type(c), c)
 print('d - ', type(d), d)
 print('e - ', type(c), e)
 print('f - ', type(c), f)
+print()
 
 # 출력
 print('a - ', a['name'])  # 존재X -> 에러 발생
