@@ -38,7 +38,6 @@ print("'Test' + c[0] - ", 'Test' + str(c[0]))
 
 # 튜플 함수
 a = (5, 2, 3, 1, 4)
-
 print('a - ', a)
 print('a - ', a.index(5))
 print('a - ', a.count(4))
