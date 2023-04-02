@@ -98,6 +98,7 @@ print('a - ', a.pop('name'))
 print('b - ', b.pop(0))
 print('c - ', c.pop('arr'))
 print('d - ', d.pop('City'))
+print()
 
 print('f - ', f.popitem())
 print('f - ', f.popitem())
