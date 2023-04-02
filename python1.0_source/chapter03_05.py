@@ -107,6 +107,7 @@ print('f - ', f.popitem())
 print('f - ', f.popitem())
 # 예외
 # print('f - ', f.popitem())
+print()
 
 print('a - ', 'name' in a)
 print('a - ', 'addr' in a)
