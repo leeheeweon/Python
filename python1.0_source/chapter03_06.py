@@ -16,12 +16,13 @@ print('c - ', type(c), c)
 print('d - ', type(d), d)
 print('e - ', type(e), e)
 print('f - ', type(f), f)
+print()
 
 # 튜플 변환
 t = tuple(b)
 print('t - ', type(t), t)
 print('t - ', t[0], t[1:3])
-
+print()
 
 # 리스트 변환
 l = list(c)
@@ -36,10 +37,12 @@ print(len(b))
 print(len(c))
 print(len(d))
 print(len(e))
+print()
 
 # 집합 자료형 활용
 s1 = set([1, 2, 3, 4, 5, 6])
 s2 = set([4, 5, 6, 7, 8, 9])
+s3 = set([1,2,3])
 
 print('l - ', s1 & s2)
 print('l - ', s1.intersection(s2))
@@ -51,11 +54,12 @@ print('l - ', s1 - s2)
 print('l - ', s1.difference(s2))
 
 # 중복 원소 확인
-print('l - ', s1.isdisjoint(s2))
+print('l - ', s1.isdisjoint(s2)) #교집합이 있으면 false, 없으면 true
 
 # 부분 집합 확인
 print('l - ', s1.issubset(s2))
-print('l - ', s1.issuperset(s2))
+print('subset - ', s3.issubset(s1))
+print('superset - ', s1.issuperset(s3))
 
 
 # 추가 & 제거
