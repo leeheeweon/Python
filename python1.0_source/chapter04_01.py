@@ -9,6 +9,9 @@ print(type(False))
 
 # 예1
 if True:
+    print("python if")
+
+if True:
     print("Good")  # 들여쓰기(Indent)
 
 if False:
