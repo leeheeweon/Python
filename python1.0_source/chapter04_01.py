@@ -112,7 +112,6 @@ if id1 == "vip" or id2 == "admin":
 if id2 == "admin" and grade == "platinum":
     print("최상위 관리자")
 
-
 # 다중 조건문
 num = 90
 
