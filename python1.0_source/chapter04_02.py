@@ -21,6 +21,11 @@ for v3 in range(1, 11, 2):
 
 print()
 
+for v4 in range(10):
+    print("v4 is: " , v4)
+
+print()
+
 # 1 ~ 1000합
 
 sum1 = 0
@@ -34,6 +39,11 @@ print('1 ~ 1000 Sum : ', sum1)
 print('1 ~ 1000 Sum : ', sum(range(1, 1001)))  # sum(리스트)
 print('1 ~ 1000 안에 4의 배수의 합 : ', sum(range(1, 1001, 4)))
 
+print()
+
+print('1~10000 sum : ', sum(range(1,10001)))
+
+print()
 
 # Iterables 자료형 반복
 # 문자열, 리스트, 튜플, 집합, 사전
