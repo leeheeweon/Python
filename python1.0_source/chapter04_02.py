@@ -41,7 +41,7 @@ print('1 ~ 1000 안에 4의 배수의 합 : ', sum(range(1, 1001, 4)))
 
 print()
 
-print('1~10000 sum : ', sum(range(1,10001)))
+print('1~10000 sum : ', sum(range(1, 10001)))
 
 print()
 
@@ -113,11 +113,11 @@ for v in lt:
 numbers = [14, 3, 4, 7, 10, 24, 17, 2, 33, 15, 34, 36, 38]
 
 for num in numbers:
-    if num == 34:  # 45
-        print("Found : 34!")
+    if num == 49:  # 45
+        print("Found : 24!")
         break
 else:
-    print("Not Found 45...")
+    print("Not Found 24...")
 
 
 # 구구단 출력
