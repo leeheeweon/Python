@@ -126,6 +126,7 @@ elif num >= 70:
 else:
     print('과락')
 
+
 # 중첩 조건문:
 grade = 'A'
 total = 95
