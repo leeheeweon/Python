@@ -141,7 +141,6 @@ else:
     print("장학금 50%")
 
 # in, not in
-
 q = [10, 20, 30]
 w = {70, 80, 90, 90}
 e = {"name": 'Lee', "city": "Seoul", "grade": "A"}
