@@ -114,7 +114,6 @@ if id2 == "admin" and grade == "platinum":
 
 # 다중 조건문
 num = 90
-
 if num >= 90:
     print('Grade : A')
 elif num >= 80:
@@ -139,7 +138,6 @@ else:
     print("장학금 50%")
 
 # in, not in
-
 q = [10, 20, 30]
 w = {70, 80, 90, 90}
 e = {"name": 'Lee', "city": "Seoul", "grade": "A"}
