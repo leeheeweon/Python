@@ -116,7 +116,6 @@ if id2 == "admin" and grade == "platinum":
 
 # 다중 조건문
 num = 90
-
 if num >= 90:
     print('Grade : A')
 elif num >= 80:
