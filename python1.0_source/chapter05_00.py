@@ -42,6 +42,9 @@ def function3(x, y):
 def function4(x, y):
     return x + y
 
+def function5(x,y):
+    return x*y
+
 
 # 실행
 function1()
@@ -50,5 +53,7 @@ function3(30, 40)
 
 function4(50, 50)
 r = function4(50, 50)
+
+print(function5(10,10))
 
 print('예제4 호출', r)
