@@ -45,7 +45,6 @@ def function4(x, y):
 def function5(x,y):
     return x*y
 
-
 # 실행
 function1()
 function2(10, 20)
