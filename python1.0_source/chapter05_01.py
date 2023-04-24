@@ -65,7 +65,6 @@ def func_mul3(x):
     y3 = x * 30
     return {'v1': y1, 'v2': y2, 'v3': y3}
 
-
 d = func_mul3(30)
 print(type(d), d, d.get('v2'), d.items(), d.keys())
 
