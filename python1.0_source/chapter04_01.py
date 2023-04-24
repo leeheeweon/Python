@@ -101,7 +101,6 @@ else:
     print("Fail.")
 
 # 예제
-
 id1 = "vip"
 id2 = "admin"
 grade = 'platinum'
