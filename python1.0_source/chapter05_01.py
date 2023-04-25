@@ -99,7 +99,6 @@ def example(args_1, args_2, *args, **kwargs):
 example(10, 20, 'Lee', 'Kim', 'Park', 'Cho', age1=20, age2=30, age3=40)
 
 # 중첩함수
-
 def nested_func(num):
     def func_in_func(num):
         print(num)
