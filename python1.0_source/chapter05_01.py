@@ -131,6 +131,9 @@ mul_func_var = mul_func
 print(mul_func_var(20,50))
 
 # 람다 함수 -> 할당
+x_y = lambda x, y: x - y
+print(x_y(10,8))
+
 lambda_mul_func = lambda x,y:x*y
 print(lambda_mul_func(50,50))
 
