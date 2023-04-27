@@ -34,3 +34,11 @@ print("input type : ", type(float_number))
 
 # 예제5
 print("FirstName - {0}, LastName - {1}".format(input("Enter first name : "), input("Enter second name : ")))
+
+# 예제6
+param1 = input("param1")
+param2 = input("param2")
+param3 = input("param3")
+
+print(param1, param2, param3)
+
