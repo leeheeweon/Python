@@ -14,8 +14,6 @@
 # 같은 오브젝트 참조 vs 다른 오브젝트 참조
 # 예약어
 
-
-
 # Chapter3-1
 # 파이썬 자료형
 # 파이썬 연산자
@@ -55,8 +53,6 @@
 # 집합(Sets) -> 리스트, 튜플 변환
 # 집합(Sets) 중복 제거 등
 
-
-
 # Chapter04-1
 # 파이썬 제어문
 # IF문
@@ -76,8 +72,6 @@
 # while문
 # while-if, while-else, while true 패턴
 # break, continue 사용
-
-
 
 # Chapter05-1
 # 파이썬 함수
