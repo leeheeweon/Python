@@ -85,6 +85,7 @@ class Warehouse:
 
 user1 = Warehouse('Lee')
 user2 = Warehouse('Cho')
+user3 = Warehouse('Cho2')
 
 print(Warehouse.stock_num)
 # Warehouse.stock_num = 0.0094
