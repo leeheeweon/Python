@@ -115,7 +115,6 @@ class Dog: # object 상속
     def speak(self, sound):
         return "{} says {}!".format(self.name, sound)
 
-
 # 인스턴스 생성
 c = Dog('july', 4)
 d = Dog('Marry', 10)
