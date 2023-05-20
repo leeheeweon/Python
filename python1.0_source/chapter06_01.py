@@ -127,7 +127,6 @@ print(d.speak('Mung Mung'))
 print(c.speak('hu hu'))
 print(d.speak('test'))
 print(d.speak('test2'))
-print(d.speak('test3'))
 
 
 
