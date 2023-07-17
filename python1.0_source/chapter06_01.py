@@ -141,6 +141,7 @@ asia.add('중국')
 asia.remove('일본')
 asia.update(['홍콩', '한국', '태국'])
 asia.update(['홍콩', '한국', '태국'])
+asia.update(['홍콩', '한국', '태국'])
 
 
 
